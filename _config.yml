@@ -1,0 +1,13 @@
+# Site settings
+title: Título do Site
+description: > # this means to ignore newlines until "baseurl:"
+  Descrição do site.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+exclude: ["Gemfile", "Gemfile.lock", "README.md"]
